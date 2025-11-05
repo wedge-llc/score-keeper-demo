@@ -3,6 +3,7 @@ import httpx
 import logging
 import os
 
+
 from models.wristband.user import User, UsersResponse, UserProfileUpdate
 from models.wristband.role import Role, RoleList
 from models.wristband.tenant import Tenant, TenantUpdateRequest, TenantOption
